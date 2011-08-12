@@ -5,3 +5,4 @@ errors/*
 /downloader/pearlib/download/*
 /app/etc/use_cache.ser
 local.xml
+.DS_Store
