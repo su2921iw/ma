@@ -1,0 +1,7 @@
+<ul>
+<?php foreach ($this->getStoreCategories() as $cat): ?>
+	<?php if ($cat->getIsActive()): ?>
+		<li><a href="<?php echo $this->getCategoryUrl($cat) ?> " class="<?php echo $this->isCategoryActive($cat) ? "active" : "" ?>"><?php echo $this->escapeHtml($cat->getName()) ?></a></li>
+	<?php endif ?>
+<?php endforeach ?>
+</ul>

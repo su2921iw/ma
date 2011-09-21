@@ -95,27 +95,27 @@ Available logo types can be assigned with action="setLogoType":
             </block>
         </reference>
         <reference name="right">
-            <block type="paypal/logo" name="paypal.partner.right.logo" template="paypal/partner/logo.phtml">
+            <!--<block type="paypal/logo" name="paypal.partner.right.logo" template="paypal/partner/logo.phtml">-->
                 <!--action method="setLogoType"><value>wePrefer_150x60</value></action-->
-            </block>
+            <!--</block>-->
         </reference>
     </catalog_product_view>
 
     <catalog_category_default>
         <reference name="right">
-            <block type="paypal/logo" name="paypal.partner.right.logo" template="paypal/partner/logo.phtml"/>
+            <!--<block type="paypal/logo" name="paypal.partner.right.logo" template="paypal/partner/logo.phtml"/>-->
         </reference>
     </catalog_category_default>
 
     <catalog_category_layered>
         <reference name="right">
-            <block type="paypal/logo" name="paypal.partner.right.logo" template="paypal/partner/logo.phtml"/>
+            <!--<block type="paypal/logo" name="paypal.partner.right.logo" template="paypal/partner/logo.phtml"/>-->
         </reference>
     </catalog_category_layered>
 
     <cms_index_index>
         <reference name="right">
-            <block type="paypal/logo" name="paypal.partner.right.logo" template="paypal/partner/logo.phtml"/>
+            <!--<block type="paypal/logo" name="paypal.partner.right.logo" template="paypal/partner/logo.phtml"/>-->
         </reference>
     </cms_index_index>
 

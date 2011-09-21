@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <blocks>
+            <catalog>
+                <rewrite>
+                    <breadcrumbs>Maskitalia_Catalog_Block_Breadcrumbs</breadcrumbs>
+                </rewrite>
+            </catalog>
+        </blocks>
+        <models>
+            <catalog>
+                <rewrite>
+                    <url>Maskitalia_Catalog_Model_Url</url>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config>

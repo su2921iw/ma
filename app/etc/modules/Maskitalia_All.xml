@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Maskitalia_Catalog>
+            <active>true</active>
+           <codePool>local</codePool>
+       </Maskitalia_Catalog>
+    </modules>
+</config>
